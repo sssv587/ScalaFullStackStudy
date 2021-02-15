@@ -12,7 +12,7 @@ object Details02 {
     println(getSum3(10, 30))
   }
 
-  //如果使用了return，返回值类型就不能你省略
+  //如果使用了return，返回值类型就不能省略
   def getSum(n1: Int, n2: Int): Int = {
     return n1 + n2
   }
