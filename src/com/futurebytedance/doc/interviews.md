@@ -20,6 +20,11 @@
 - 使用本类的辅助构造器继续初始化
 - 将对象在内存中的地址赋给p这个引用
 
+## Scala中主构造器中的变量的作用范围
+- 如果主构造器是Worker(inName: String),那么inName就是一个局部变量
+- 如果主构造器是Worker2(inName: String),那么inName就是Worker2的一个private的只读属性
+- 如果主构造器是Worker2(var inName: String),那么inName就是Worker2的一个private的可读写属性
+
 ## scala中伴生类和伴生对象的关系
 - class + 类名 -> 伴生类  object + 类名 -> 伴生对象
 - scala中移除了static关键字，所以class中定义的是非静态属性和方法，object中定义的是静态属性和方法
