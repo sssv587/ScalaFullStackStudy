@@ -29,12 +29,12 @@ class Worker(inName: String) {
   var name = inName
 }
 
-//1.如果 主构造器是Worker2(inName: String),那么inName就是Worker2的一个private的只读属性
+//1.如果 主构造器是Worker2(val inName: String),那么inName就是Worker2的一个private的只读属性
 class Worker2(val inName: String) {
   var name = inName
 }
 
-//1.如果 主构造器是Worker2(inName: String),那么inName就是Worker2的一个private的可读写属性
+//1.如果 主构造器是Worker2(var inName: String),那么inName就是Worker2的一个private的可读写属性
 class Worker3(var inName: String) {
   var name = inName
 }
