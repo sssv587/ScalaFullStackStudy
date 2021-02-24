@@ -6,7 +6,7 @@ package com.futurebytedance.day06.impliciti
  * @version 1.0
  * @Description 隐式转换的前提
  */
-class ImplicitNotice {
+object ImplicitNotice {
   def main(args: Array[String]): Unit = {
     //1.隐式转换不能有二义性
     //2.隐式转换不能嵌套使用
