@@ -15,7 +15,7 @@ package com.futurebytedance.day07.collection
  * 运算规则，从右向左。
  * ::: 运算符是将集合中的每一个元素加入到集合中去
  */
-object ListDemo01 {
+object ListDemo {
   def main(args: Array[String]): Unit = {
     //说明
     //1.在默认情况下List是scala.collection.immutable.List，即不可变
