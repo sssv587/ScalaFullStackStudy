@@ -10,7 +10,7 @@ package com.futurebytedance.day07.collection
  *              说的简单点，就是将多个无关的数据封装为一个整体，称为元组, 最大的特点灵活,对数据没有过多的约束。
  *
  */
-object TupleDemo01 {
+object TupleDemo {
   def main(args: Array[String]): Unit = {
     //创建
     //说明 1.tuple1就是一个Tuple 类型时Tuple4
