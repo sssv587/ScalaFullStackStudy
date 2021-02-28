@@ -10,7 +10,7 @@ object ArrayDemo02 {
   def main(args: Array[String]): Unit = {
     //说明
     //1.使用的是 object Array 的apply
-    //2.直接初始化数组，这时因为给了正数和字符串，这个数组的法宁就是Any
+    //2.直接初始化数组，这时因为给了正数和字符串，这个数组的泛型就是Any
     //3.遍历方式一样
     val arr02 = Array(1, 3, "xxx")
     for (i <- arr02) {
