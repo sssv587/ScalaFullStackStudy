@@ -4,7 +4,7 @@ package com.futurebytedance.day08.matchi
  * @author yuhang.sun
  * @date 2021/3/2 - 23:51
  * @version 1.0
- * @Description
+ * @Description 模式匹配-类型匹配
  */
 object MatchTypeDetail {
   def main(args: Array[String]): Unit = {
