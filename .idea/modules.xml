@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ScalaFullStackStudy.iml" filepath="$PROJECT_DIR$/ScalaFullStackStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/akka/akka.iml" filepath="$PROJECT_DIR$/akka/akka.iml" />
     </modules>
   </component>
 </project>
