@@ -1,4 +1,4 @@
-package com.futurebytedance.akka.actor
+package actor
 
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 
