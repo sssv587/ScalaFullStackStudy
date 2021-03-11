@@ -1,6 +1,6 @@
-package com.futurebytedance.day11.simplefactory.pizzastore.order
+package com.futurebytedance.day11.simplefactory.order
 
-import com.futurebytedance.day11.simplefactory.pizzastore.pizza.Pizza
+import com.futurebytedance.day11.simplefactory.pizza.Pizza
 
 import scala.io.StdIn
 import scala.util.control.Breaks.{break, breakable}

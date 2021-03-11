@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.simplefactory.pizzastore.pizza
+package com.futurebytedance.day11.simplefactory.pizza
 
 /**
  * @author yuhang.sun
@@ -24,5 +24,5 @@ abstract class Pizza {
   def box(): Unit = {
     println(this.name + " boxing ..")
   }
-  
+
 }

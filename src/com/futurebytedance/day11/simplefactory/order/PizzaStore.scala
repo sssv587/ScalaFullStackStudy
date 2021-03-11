@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.simplefactory.pizzastore.order
+package com.futurebytedance.day11.simplefactory.order
 
 /**
  * @author yuhang.sun

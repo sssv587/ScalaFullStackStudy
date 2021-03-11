@@ -1,6 +1,7 @@
-package com.futurebytedance.day11.simplefactory.pizzastore.order
+package com.futurebytedance.day11.simplefactory.order
 
-import com.futurebytedance.day11.simplefactory.pizzastore.pizza.{CheesePizza, GreekPizza, PepperPizza, Pizza}
+import com.futurebytedance.day11.simplefactory.pizza.{CheesePizza, GreekPizza, PepperPizza, Pizza}
+import com.futurebytedance.day11.simplefactory.pizzastore.pizza.PepperPizza
 
 /**
  * @author yuhang.sun
