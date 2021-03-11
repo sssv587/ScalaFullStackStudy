@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.factorymethod.pizzastore.pizza
+package com.futurebytedance.day11.factorymethod.pizza
 
 abstract class Pizza {
 

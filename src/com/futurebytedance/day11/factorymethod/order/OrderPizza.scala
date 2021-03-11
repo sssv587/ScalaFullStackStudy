@@ -1,6 +1,6 @@
-package com.futurebytedance.day11.factorymethod.pizzastore.order
+package com.futurebytedance.day11.factorymethod.order
 
-import com.futurebytedance.day11.factorymethod.pizzastore.pizza.Pizza
+import com.futurebytedance.day11.factorymethod.pizza.Pizza
 
 import scala.io.StdIn
 import scala.util.control.Breaks._

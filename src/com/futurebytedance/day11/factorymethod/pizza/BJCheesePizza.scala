@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.factorymethod.pizzastore.pizza
+package com.futurebytedance.day11.factorymethod.pizza
 
 class BJCheesePizza extends Pizza {
   override def prepare(): Unit = {
