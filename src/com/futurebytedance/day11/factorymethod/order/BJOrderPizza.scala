@@ -1,7 +1,6 @@
 package com.futurebytedance.day11.factorymethod.order
 
 import com.futurebytedance.day11.factorymethod.pizza.{BJCheesePizza, BJPepperPizza, Pizza}
-import com.futurebytedance.day11.factorymethod.pizzastore.pizza.Pizza
 
 
 class BJOrderPizza extends OrderPizza {
