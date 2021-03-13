@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.proxy.localcandymachine
+package com.futurebytedance.day11.localcandymachine
 
 object TestCanyMachine {
   def main(args: Array[String]): Unit = {

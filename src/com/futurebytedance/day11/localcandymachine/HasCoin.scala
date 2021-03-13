@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.proxy.localcandymachine
+package com.futurebytedance.day11.localcandymachine
 
 //用户插入了一块硬币的状态
 class HasCoin extends State {

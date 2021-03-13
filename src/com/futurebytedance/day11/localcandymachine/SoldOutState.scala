@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.proxy.localcandymachine
+package com.futurebytedance.day11.localcandymachine
 
 //销售完的状态
 class SoldOutState extends State {

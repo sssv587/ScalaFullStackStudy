@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.proxy.localcandymachine
+package com.futurebytedance.day11.localcandymachine
 
 //糖果机状态..
 class CandyMachine {

@@ -1,4 +1,4 @@
-package com.futurebytedance.day11.proxy.localcandymachine
+package com.futurebytedance.day11.localcandymachine
 
 trait State extends Serializable {
   def insertCoin() //插入硬币
