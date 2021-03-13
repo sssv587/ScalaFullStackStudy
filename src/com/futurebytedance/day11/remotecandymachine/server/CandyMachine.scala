@@ -1,7 +1,10 @@
-package com.futurebytedance.day11.proxy.localcandymachine
+package com.futurebytedance.day11.remotecandymachine.server
+
+import java.rmi.RemoteException
+import java.rmi.server.UnicastRemoteObject
 
 //糖果机状态..
-class CandyMachine {
+class CandyMachine extends UnicastRemoteObject with CandyMachineRemote{
 
   var mSoldOutState: State = _
   var mOnReadyState: State = _
@@ -12,6 +15,8 @@ class CandyMachine {
   private var state: State = _
   private var count = 0
 
+  //需要抛出RemoteException 异常
+  @throws(classOf[RemoteException])
   def this(location: String, count: Int) {
     this
     this.location = location
@@ -29,29 +34,27 @@ class CandyMachine {
   }
 
   //给糖果机设置状态
-  def setState(state: State): Unit = {
+  def setState(state: State) = {
     this.state = state
   }
-
   def getLocation(): String = {
     location
   }
 
-
-  def insertCoin(): Unit = {
+  def insertCoin() = {
     state.insertCoin()
   }
 
-  def returnCoin(): Unit = {
+  def returnCoin() = {
     state.returnCoin()
   }
 
-  def turnCrank(): Unit = {
+  def turnCrank() = {
     state.turnCrank()
     state.dispense()
   }
 
-  def releaseCandy(): Unit = {
+  def releaseCandy() = {
 
     if (count > 0) {
       count = count - 1
